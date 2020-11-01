@@ -11,6 +11,8 @@ import Cart from "./components/Cart"
 import Default from "./components/Default"
 import backToSchool from "./components/backToSchool"
 import kinderGarden from "./components/kinderGarden"
+import Home from "./components/Home.js"
+import Secret from './components/Secret'
 
 class App extends Component {
   render() {
@@ -18,12 +20,7 @@ class App extends Component {
       <React.Fragment>
         <FirstNavBar />
         <Navbar />
-        <Switch>
-          <Route path="/backToSchool" component={backToSchool} />
-          <Route path="/kinderGarden" component={kinderGarden} />
-          <Route path="/cart" component={Cart} />
-          <Route component={Default} />
-        </Switch>
+        
       </React.Fragment>
     )
   }
