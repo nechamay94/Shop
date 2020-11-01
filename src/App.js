@@ -18,7 +18,6 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <FirstNavBar />
         <Navbar />
         
       </React.Fragment>
